@@ -14,7 +14,6 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box; /* Firefox */
     -webkit-box-sizing: border-box; /* Safari */
-   
 }
 
     .hiprint-printPaper *:focus {
@@ -25,6 +24,7 @@
 .hiprint-page-break-avoid {
     page-break-after: avoid;
 }
+
 .hiprint-printPaper {
     position: relative;
     padding: 0 0 0 0;
@@ -32,12 +32,14 @@
     overflow-x: hidden;
     overflow: hidden;
 }
+
     .hiprint-printPaper .hiprint-printPaper-content {
         position: relative;
     }
-.hiprint-printPaper.design {
-    overflow: visible;
-}
+
+    .hiprint-printPaper.design {
+        overflow: visible;
+    }
 
 
 
@@ -191,7 +193,7 @@
     height: 21pt;
     width: 21pt;
     background: red;
-    z-index:1;
+    z-index: 1;
 }
 
 .hiprint-printPaper .hiprint-paperNumber-disabled {
@@ -202,8 +204,8 @@
 
 .hiprint-printElement-vline, .hiprint-printElement-hline {
     border: 0px none rgb(0,0,0);
-    
 }
+
 .hiprint-printElement-vline {
     border-left: 0.75pt solid #000;
     border-right: 0px none rgb(0,0,0) !important;
@@ -223,12 +225,13 @@
 }
 
 .hiprint-text-content-middle {
-    display:table;
+    display: table;
 }
-.hiprint-text-content-middle>div {
-    display: table-cell;
-    vertical-align:middle
-}
+
+    .hiprint-text-content-middle > div {
+        display: table-cell;
+        vertical-align: middle
+    }
 
 .hiprint-text-content-bottom {
     display: table;

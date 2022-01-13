@@ -6,26 +6,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="keywords" content="hiprint,一个可以跨平台windows,mac,linux运行的js打印插件,打印自动分页">
 		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-		<title>hiprint.io</title>
-		<link href="http://hiprint.io/Content/hinnn.css" rel="stylesheet" />
+		<title>pgz-hiprint</title>
+		<link href="css/hinnn.css" rel="stylesheet" />
 		<!-- Bootstrap -->
 		<!-- <link href="http://hiprint.io/Content/bootstrap.min.css" rel="stylesheet"> -->
 		<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="http://hiprint.io/Content/document.css" rel="stylesheet" />
+		<link href="css/document.css" rel="stylesheet" />
 		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
 		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
 		<!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
-		<link href="http://hiprint.io/Content/hinnn.css" rel="stylesheet" />
-		<link href="http://hiprint.io/Content/home.css" rel="stylesheet" />
-		<link href="http://hiprint.io/Content/Font-Awesome-3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet" />
-		<link href="http://hiprint.io/Content/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet" />
-		<link href="http://hiprint.io/Content/hiprint/css/hiprint.css" rel="stylesheet" />
-		<link href="http://hiprint.io/Content/hiprint/css/print-lock.css" rel="stylesheet" />
+		<link href="css/hinnn.css" rel="stylesheet" />
+		<link href="css/home.css" rel="stylesheet" />
+		<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+		<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/hiprint.css" rel="stylesheet" />
+		<link href="css/print-lock.css" rel="stylesheet" />
 		<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script> -->
-		<script src="http://hiprint.io/Content/jquery.js"></script>
+		<script src="plugins/jquery.js"></script>
 
 
 	</head>
@@ -34,9 +34,9 @@
 		<div class="wrapper" style="margin-top:0px;">
 
 
-			<link href="http://hiprint.io/Content/hiprint/css/hiprint.css" rel="stylesheet" />
-			<link href="http://hiprint.io/Content/hiprint/css/print-lock.css" rel="stylesheet" />
-			<link href="http://hiprint.io/Content/hiprint/css/print-lock.css" media="print" rel="stylesheet" />
+			<link href="css/hiprint.css" rel="stylesheet" />
+			<link href="css/print-lock.css" rel="stylesheet" />
+			<link href="css/print-lock.css" media="print" rel="stylesheet" />
 
 
 			<layout class="layout hinnn-layout hinnn-layout-has-sider height-100-per" style="background:#fff;">
@@ -275,7 +275,8 @@
 						</div>
 
 						<div class="modal-body">
-							<button type="button" class="btn btn-danger" id="A4_printByHtml" style="display: none;">直接打印</button>
+							<button type="button" class="btn btn-danger" id="A4_printByHtml"
+								style="display: none;">直接打印</button>
 							<span id="printerlist" style="display: none;"></span>
 							<div class="prevViewDiv"></div>
 						</div>
@@ -296,8 +297,9 @@
 
 		<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-		<script src="http://hiprint.io/Content/jquery.nicescroll-3.7.4/jquery.nicescroll.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/hiprint.bundle.js"></script>
+		<!-- <script src="http://hiprint.io/Content/jquery.nicescroll-3.7.4/jquery.nicescroll.min.js"></script> -->
+		<script src="asset/jquery.nicescroll-3.7.6/jquery.nicescroll.min.js"></script>
+		<script src="hiprint.bundle.js"></script>
 
 
 		<script src="custom_test/custom-etype-provider.js"></script>
@@ -305,19 +307,21 @@
 		<!-- <script src="http://hiprint.io/Content/hiprint/custom-print-json.js"></script> -->
 		<script src="custom_test/custom-print-json-empty.js"></script>
 		<!-- <script src="custom_test/custom-print-json.js"></script> -->
-		<script src="http://hiprint.io/Content/hiprint/print-data.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/socket.io.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/polyfill.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jquery.hiwprint.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/JsBarcode.all.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/qrcode.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jquery.minicolors.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jspdf/canvas2image.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jspdf/canvg.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jspdf/html2canvas.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/plugins/jspdf/jspdf.min.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/socket.io.js"></script>
-		<script src="http://hiprint.io/Content/hiprint/hiprint.config.js"></script>
+		<script src="custom_test/print-data.js"></script>
+		<!-- <script src="http://hiprint.io/Content/hiprint/socket.io.js"></script> -->
+		<script src="https://cdn.bootcdn.net/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+		<script src="polyfill.min.js"></script>
+		<script src="plugins/jquery.hiwprint.js"></script>
+		<script src="plugins/JsBarcode.all.min.js"></script>
+		<script src="plugins/qrcode.js"></script>
+		<script src="plugins/jquery.minicolors.min.js"></script>
+		<script src="plugins/jspdf/canvas2image.js"></script>
+		<script src="plugins/jspdf/canvg.min.js"></script>
+		<script src="plugins/jspdf/html2canvas.min.js"></script>
+		<script src="plugins/jspdf/jspdf.min.js"></script>
+		<!-- <script src="http://hiprint.io/Content/hiprint/socket.io.js"></script> -->
+		<script src="https://cdn.bootcdn.net/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+		<script src="hiprint.config.js"></script>
 		<script>
 			window.GetQueryString = function(name) {
 				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
@@ -346,16 +350,16 @@
 		</script>
 		<script>
 			var mcustomPrintJson = customPrintJson;
-	
+
 
 			var hiprintTemplate;
 			$(document).ready(function() {
 				// https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a
-				if(GetQueryString("pjurl")) {
+				if (GetQueryString("pjurl")) {
 					$.ajax({
 						type: "POST",
 						contentType: "application/json;charset=UTF-8",
-						url:GetQueryString("pjurl"),
+						url: GetQueryString("pjurl"),
 						data: {},
 						async: false,
 						success: function(res) {
@@ -369,7 +373,7 @@
 						}
 					});
 				}
-				
+
 				$(".print-content").niceScroll();
 				//初始化打印插件
 				hiprint.init({

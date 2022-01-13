@@ -1,0 +1,45 @@
+﻿body{
+    height:100%;
+    width:100%;
+}
+
+.hinnn-layout, .hinnn-layout * {
+    box-sizing: border-box;
+}
+
+  
+.hinnn-layout {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+   
+}
+    .hinnn-layout.hinnn-layout-has-sider {
+        flex-direction: row;
+    }
+
+.hinnn-layout-sider {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.hinnn-layout-content {
+    flex: auto;
+}
+
+.hinnn-header {
+    position: relative;
+ 
+    z-index: 1030;
+    display: block;
+}
+
+
+.wrapper {
+    min-height: 100%;
+}
+
+.height-100-per {
+    height: 100%;
+}
