@@ -1,13 +1,15 @@
 # pgz-hiprint-html
 一款web打印设计插件，简单易用，基于HIPrint
 
-## 预览
 https://www.pusdn.com
+
+## 在线预览（online demo）
+https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html
 
 ## 目录介绍
 
+## 快速使用（参数示例）
 
-## 快速使用
 空白设计
 [](http://127.0.0.1:8848/pgz-hiprint-html/index-biz.html)
 
