@@ -6,6 +6,12 @@ https://www.pusdn.com
 ## 在线预览（online demo）
 https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html
 
+
+
+## 截图
+
+![输入图片说明](https://images.gitee.com/uploads/images/2022/0126/171339_ce80dbbe_868742.png "屏幕截图.png")
+
 ## 目录介绍
 
 ## 快速使用（参数示例）
