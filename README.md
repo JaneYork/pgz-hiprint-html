@@ -34,5 +34,5 @@ https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/inde
 [https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html?pjurl=https%3A%2F%2Fmockapi.eolink.com%2FnXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05%2Fa](https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html?pjurl=https%3A%2F%2Fmockapi.eolink.com%2FnXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05%2Fa)
 
 参数含义：
-pjurl：返回打印JSON的接口地址，例如
+pjurl：返回打印JSON的接口地址(POST方式)，例如
 [https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a](https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a)
