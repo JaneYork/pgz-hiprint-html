@@ -36,3 +36,7 @@ https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/inde
 参数含义：
 pjurl：返回打印JSON的接口地址(POST方式)，例如
 [https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a](https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a)
+
+## 业务系统中使用
+- 直接使用空白设计
+- 使用动态接口参数，传递，回显。接口返回数据参考pjurl
