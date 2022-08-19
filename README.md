@@ -2,7 +2,7 @@
 
 # pgz-hiprint-html
 
-一款web打印设计插件，简单易用，基于HIPrint
+一款web打印设计插件，简单易用，基于HIPrint。适用于普通HTML和vue项目！可以直接上手使用！
 
 https://www.pusdn.com
 
@@ -27,6 +27,10 @@ https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/inde
 
 ## 快速使用（参数示例）
 
+> 直接在你的项目（VUE、HTML都行）中，内嵌链接，iframe内嵌、弹窗、新窗口打开，等方式。
+> 内嵌链接，有空白的，也有数据回显的，方便打印设计，或者回显从数据库查询出来的预置模板。
+
+
 空白设计
 [https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html](https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html)
 
@@ -34,7 +38,7 @@ https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/inde
 [https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html?pjurl=https%3A%2F%2Fmockapi.eolink.com%2FnXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05%2Fa](https://janeyork_org.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html?pjurl=https%3A%2F%2Fmockapi.eolink.com%2FnXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05%2Fa)
 
 参数含义：
-pjurl：返回打印JSON的接口地址(POST方式)，例如
+pjurl：返回打印JSON的接口地址(**POST方式，且可以直接访问**)，例如
 [https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a](https://mockapi.eolink.com/nXdA6kfce7bb03780dd6f2383cda5310baf683e854fbd05/a)
 
 ## 业务系统中使用
