@@ -2,7 +2,7 @@
 
 # pgz-hiprint-html
 
-一款web打印设计插件，简单易用，基于HIPrint。适用于普通HTML和vue项目！可以直接上手使用！
+一款web打印设计插件，简单易用，基于HIPrint。适用于普通HTML和vue项目！可以直接上手使用！iframe内嵌直接使用即可。
 
 https://www.pusdn.com
 
