@@ -6,7 +6,10 @@
 
 https://www.pusdn.com
 
-## 在线预览（online demo）
+## 最新使用手册
+https://www.yuque.com/janeyork/pgz-sbv-geefox-pub/igp08lzypce98o5c?singleDoc# 《✅在线打印模板设计接入使用说明》
+
+## 在线预览（online demo）｜⚠️废弃
 https://janeyork-cn.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html
 
 带参数
