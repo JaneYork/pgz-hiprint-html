@@ -6,10 +6,12 @@
 
 https://www.pusdn.com
 
-## 最新使用手册
+## 最新使用手册｜快速集成
+下载代码，上传到你的服务器，或者参考以下
 https://www.yuque.com/janeyork/pgz-sbv-geefox-pub/igp08lzypce98o5c?singleDoc# 《✅在线打印模板设计接入使用说明》
 
 ## 在线预览（online demo）｜⚠️废弃
+> gitee pages未做任何通知，直接下架，呵呵
 https://janeyork-cn.gitee.io/demo.janeyork.pusdn.com/demo/pgz-hiprint-html/index-biz.html
 
 带参数
